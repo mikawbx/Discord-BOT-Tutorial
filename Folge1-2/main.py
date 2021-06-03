@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import random
+import asyncio
 
 #------------------------------------------------------------------
 
@@ -59,11 +60,6 @@ async def ping(ctx):
 
 
 
-
-
-
-
-
 #-----------------------------------------------------------------
 
-client.run('ODQ4ODE5MDE2NjI5MjIzNDY0.YLSKTw.H9zfaI-Vs55bBiZu-K9kjSr1cHg')
+client.run("DEIN TOKEN")
