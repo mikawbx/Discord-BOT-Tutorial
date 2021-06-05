@@ -46,18 +46,6 @@ async def on_member_remove(member):
     channel = await client.fetch_channel(850151417301303316)
     await channel.send(f"Schönes Leben {member.name}#{member.discriminator} wünschen wir dir noch!")
 
-#-----------------------------------------------------------------
-
-@client.event
-async def on_raw_reaction_add(payload):
-    print('1')
-    if payload.channel_id == 848704536830148650:
-        print('2')
-        if payload.message_id == 850483422677958667:
-            print('3')
-            if str(payload.emoji) == "📢":
-                print('4')
-                await payload.member.send('TEST')
 
 #-----------------------------------------------------------------
 
